@@ -11,7 +11,7 @@ namespace MyFunc {
 
     bool rigth_index(int* arr, int size, int & index);
 
-    bool parent_index(int* arr, int size, int & index);
+    bool parent_index(int* arr, int & index);
 
     void print_massive(int* arr, int size);
 
