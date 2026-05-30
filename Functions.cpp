@@ -53,7 +53,7 @@ namespace MyFunc {
         return true;
     }
 
-    bool parent_index(int* arr, int size, int & index) {
+    bool parent_index(int* arr, int & index) {
         if(index == 0) {
             return false;
         }   
