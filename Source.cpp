@@ -54,7 +54,7 @@ int main()
             std::cout << "Input command (up, left, rigth, exit): ";
             std::getline(std::cin >> std::ws, strCommand);
             if(strCommand == "up") {
-                if(MyFunc::parent_index(arr, size, index)) {
+                if(MyFunc::parent_index(arr, index)) {
                     std::cout << "OK\n";
                 }  
                 else {
